@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 public class Metodos {
+    // Atributos d euna clase
+    //no  siempre son nescesarios
+    String nombre;
+    String apellidoPaterno;
+    String apellidoMaterno;
 
     public static void Variables () {
         String holamundo = "Hola Mundo";
@@ -301,7 +306,7 @@ public class Metodos {
     }
     public static void cicloFor(){
             // ciclo for
-        for (int i=0;_ i<= 200;i++){
+        for (int i=0; i<= 200;i++){
             System.out.println("i = " + i);
         }
 
@@ -325,4 +330,16 @@ public class Metodos {
             System.out.println("i = " + i);
         }
     }
+
+
+    public void desplegarNombre(){
+
+
+        System.out.println("nombre = " + nombre);
+        System.out.println("apellidoPaterno = " + apellidoPaterno);
+        System.out.println("apellidoMaterno = " + apellidoMaterno);
+
+
+    }
+
 }

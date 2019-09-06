@@ -1,8 +1,10 @@
 public class main {
 
     public static void main(String[] args) {
-
+        //Creacion de objetos
         Metodos  metodos = new Metodos();
+
+        //llamado de metodos
 
         metodos.Variables();
         metodos.Scanear();
@@ -22,6 +24,10 @@ public class main {
         metodos.cicloWhileyDo();
         metodos.cicloFor();
         metodos.breakyContinue();
+        metodos.nombre= "Gio";
+        metodos.apellidoPaterno="jim";
+        metodos.apellidoMaterno="boy";
+        metodos.desplegarNombre();
 
     }
 
