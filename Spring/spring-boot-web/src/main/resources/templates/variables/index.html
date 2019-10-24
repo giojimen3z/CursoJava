@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thumeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title th:text="${titulo}"></title>
+</head>
+<body>
+	<h1 th:text="${titulo}"></h1>
+
+	<ul>
+		<li><a th:href="@{/variables/string/} + 'Hola Gio'"> Hola Gio</a></li>
+		<li><a th:href="@{/variables/string/} + 'Quetal Jhon'"> Quetal
+				Jhon</a></li>
+		<li><a th:href="@{/variables/string/} + 'Saludos  Gio'+'/' + 16">
+				Saludo 2 variables</a></li>
+	</ul>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thumeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Enviar parametro dle request http GET - URL</title>
+</head>
+<body>
+<h1>Enviar parametro dle request http GET - URL</h1>
+
+<ul>
+	<li>
+		<a th:href="@{/params/string(texto='prueba de getparams')}">/params/string</a> 
+	</li>
+	<li>
+		<a th:href="@{/params/string(texto='prueba de getparams 2 ')}">Esto solo es un label</a>
+	</li>
+	<li>
+		<a th:href="@{/params/mix-params(saludo='como estas  Gio ', numero = 7 )}">Params con multiples  parametros</a>
+	</li>
+	<li>
+		<a th:href="@{/params/mix-params-request(saludo='como estas  jai ', numero = 10 )}">Params con multiples  parametros con httpRequestServlets</a>
+	</li>
+</ul>
+</body>
+</html>
